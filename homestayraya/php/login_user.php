@@ -22,7 +22,7 @@ if ($result->num_rows>0){
 
 function sendJsonResponse($sentArray)
 {
-    header('Content-Type: appl6ication/json');
+    header('Content-Type: application/json');
     echo json_encode($sentArray);
 }
 ?>
